@@ -31,3 +31,20 @@ time与datetime之间的互相转换
 datetime.datetime(2015, 6, 11, 17, 28, 38, 7000)
 ```
 
+时间
+
+```python
+#d1 = datetime.datetime(2015, 03, 06)
+>>> string = '2015-03-06'
+>>> d1 = datetime.datetime.strptime(string, '%Y-%m-%d')
+>>> d2 = d1 + datetime.timedelta(days=6)
+
+>>> print d2.strftime('%Y-%m-%d') # suggest
+```
+
+
+
+
+
+
+
