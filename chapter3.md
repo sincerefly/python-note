@@ -34,13 +34,14 @@ datetime.datetime(2015, 6, 11, 17, 28, 38, 7000)
 求指定日期的n天后的日期
 
 ```python
-#d1 = datetime.datetime(2015, 03, 28)
+#d1 = datetime.datetime(2015, 03, 06)
 >>> string = '2015-03-06'
 >>> d1 = datetime.datetime.strptime(string, '%Y-%m-%d')
 >>> d2 = d1 + datetime.timedelta(days=6)
-
->>> print d2.strftime('%Y-%m-%d') # suggest
+>>> print d2.strftime('%Y-%m-%d')
+2015-03-12
 ```
+
 
 
 
